@@ -3,4 +3,5 @@ body {
 }
 h1, h2 {
 	font-family: "proxima-nova";
+	text-transform: uppercase;
 }
