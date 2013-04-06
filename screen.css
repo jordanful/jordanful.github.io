@@ -1,21 +1,35 @@
 body {
 	font-family: "adelle";
-	background: #303d4a;
 	color: #fff;
 	-webkit-backface-visibility: hidden;
+}
+.masthead {
+	background: #303d4a;
+	width: 100%;
+	padding: 40px 0;
+}
+.work {
+	background: #fff;
+	width: 100%;
+	color: #333;
+	padding: 40px 0;
 }
 h1 {
 	font-size: 1.3em;
 	color: #6DD998;
 	margin-top: 60px;
 }
+h2 {
+	font-size: 1.3em;
+}
 h1, h2 {
 	font-family: "proxima-nova";
 	text-transform: uppercase;
 }
 .container {
-	text-align: center;
+	text-align: center;	
 }
+
 a {
 	color: #FFB863;
 	text-decoration: none;
