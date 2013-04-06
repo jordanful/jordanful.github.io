@@ -9,6 +9,17 @@ body {
 	padding: 40px 0;
 	text-align: center;
 }
+.social {
+	font-family: "proxima-nova";
+	text-transform: uppercase;
+}
+a.twitter {
+	color: #00acee;
+	margin-right: 30px;
+}
+a.dribbble {
+	color: #ea4c89;
+}
 .work {
 	background: #fff;
 	width: 100%;
