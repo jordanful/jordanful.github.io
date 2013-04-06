@@ -14,11 +14,25 @@ body {
 	width: 100%;
 	color: #333;
 	padding: 40px 0;
+	text-align: center;
 }
 .work img {
 	max-width: 100%;
 	margin-bottom: 80px;
+	border-radius: 6px;
 }
+.small {
+	max-width: 380px;
+	margin: 0 auto;
+	float: left;
+}
+.bordered {
+	border:2px solid #ccc;
+}
+a img {
+	color: transparent !important;
+}
+
 h1 {
 	font-size: 1.3em;
 	color: #6DD998;
