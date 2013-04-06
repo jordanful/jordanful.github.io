@@ -20,6 +20,7 @@ a.twitter {
 a.dribbble {
 	color: #ea4c89;
 }
+
 .work {
 	background: #fff;
 	width: 100%;
@@ -34,8 +35,13 @@ a.dribbble {
 }
 .small {
 	max-width: 380px;
-	margin: 0 auto;
+}
+.left {
 	float: left;
+	margin-right: 20px;
+}
+.right {
+	float: right;
 }
 .bordered {
 	border:2px solid #ccc;
@@ -184,4 +190,12 @@ a:hover {
 	-moz-animation-name: fadeInDown;
 	-o-animation-name: fadeInDown;
 	animation-name: fadeInDown;
+}
+/*Smaller Screens*/
+@media screen and (max-width: 840px) {
+	.left, .right {
+		float: none;
+		margin: 0 auto;
+	}
+	
 }
