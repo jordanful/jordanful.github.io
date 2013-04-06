@@ -1,7 +1,13 @@
 body {
 	font-family: "adelle";
 }
+h1 {
+	font-size: 1.5em;
+}
 h1, h2 {
 	font-family: "proxima-nova";
 	text-transform: uppercase;
+}
+.container {
+	text-align: center;
 }
