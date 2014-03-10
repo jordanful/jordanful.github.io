@@ -12,7 +12,6 @@ body {
 }
 .social {
 	font-family: "proxima-nova";
-	text-transform: uppercase;
 }
 a.twitter {
 	margin-right: 30px;
@@ -57,7 +56,6 @@ h2 {
 }
 h1, h2 {
 	font-family: "proxima-nova";
-	text-transform: uppercase;
 }
 
 a {
